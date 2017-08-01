@@ -22,12 +22,39 @@
         android:hint="@string/nombre"
         />
 
+    <EditText
+        android:id="@+id/edtCorreo"
+        android:inputType="textEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/mail"/>
+
+    <Button
+        android:id="@+id/btnGuardarPreference"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_guardar_preference"
+        android:onClick="guardarPreferencia"/>
+
+    <Button
+        android:id="@+id/btnMostrarPreference"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_mostrar_preference"
+        android:onClick="mostrarPreferencia"/>
+
     <Button
         android:id="@+id/btnGuardarArchivo"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/boton_guarda"
         android:layout_gravity="center_horizontal"
         android:onClick="generarArchivo"/>
+
+    <TextView
+        android:id="@+id/tvPrefenciaCompartida"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_pref_compartida"/>
 
 </LinearLayout>

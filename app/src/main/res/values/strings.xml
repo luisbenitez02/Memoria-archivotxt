@@ -3,4 +3,8 @@
     <string name="titulo">Manejo de memoria</string>
     <string name="nombre">Nombre</string>
     <string name="boton_guarda">Guardar Archivo</string>
+    <string name="mail">tuemail@example.com</string>
+    <string name="btn_guardar_preference">Guardar Preferencias</string>
+    <string name="btn_mostrar_preference">Mostrar Preferencias</string>
+    <string name="tv_pref_compartida">Soy un texto huerfano</string>
 </resources>
